@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "3ea85b79accebef39af2432183a88b94",
+    "packages": [
+        {
+            "name": "emilkje/base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emilkje/composer-base.git",
+                "reference": "a78150b7380408a1548135a6627cc05abd2adc83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emilkje/composer-base/zipball/a78150b7380408a1548135a6627cc05abd2adc83",
+                "reference": "a78150b7380408a1548135a6627cc05abd2adc83",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "handler",
+                    "data",
+                    "template",
+                    "processor"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Emil Kjelsrud",
+                    "email": "emilkje@gmail.com",
+                    "homepage": "http://emilkjelsrud.com"
+                }
+            ],
+            "description": "Test base",
+            "homepage": "http://innit.no",
+            "keywords": [
+                "base",
+                "example",
+                "project"
+            ],
+            "support": {
+                "source": "https://github.com/emilkje/composer-base/tree/master",
+                "issues": "https://github.com/emilkje/composer-base/issues"
+            },
+            "time": "2013-07-18 08:00:33"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "emilkje/base": 20
+    },
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": [
+
+    ]
+}

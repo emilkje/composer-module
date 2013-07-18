@@ -1,0 +1,23 @@
+{
+    "name": "emilkje/testmodule",
+    "description": "Test module",
+    "keywords": ["example", "module"],
+    "homepage": "http://innit.no",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Emil Kjelsrud",
+            "email": "emilkje@gmail.com",
+            "homepage": "http://emilkjelsrud.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+		"emilkje/base": "@dev"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap": ["handler", "data", "template", "processor"]
+    }
+}
